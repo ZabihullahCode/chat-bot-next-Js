@@ -47,6 +47,7 @@ export default function Home() {
                   </p>
                 </div>
               ) : (
+              
                 <div className="flex gap-x-2">
                   <div className="bg-teal-500 h-12 w-12 rounded-lg">
                     <svg
@@ -75,7 +76,7 @@ export default function Home() {
       ) : (
         <div>
         <div className="w-full flex justify-center pt-32">
-          <h1 className="font-bold text-3xl">
+          <h1 className="font-bold text-3xl text-center text-neutral-content">
             Please use the input filed below 🔰
           </h1>
         </div>
